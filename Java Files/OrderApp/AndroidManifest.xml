@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.orderapp"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name="com.example.orderapp.ConnectionApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.orderapp.WelcomePage"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.orderapp.NumberCustomers"
+            android:label="@string/title_activity_number_customers" >
+        </activity>
+        <activity
+            android:name="com.example.orderapp.SplitBill"
+            android:label="@string/title_activity_split_bill" >
+        </activity>
+        <activity
+            android:name="com.example.orderapp.ViewMenu"
+            android:label="@string/title_activity_view_menu" >
+        </activity>
+        <activity
+            android:name="com.example.orderapp.Menu_selection"
+            android:label="@string/title_activity_menu_selection" >
+        </activity>
+        <activity
+            android:name="com.example.orderapp.Menu_Qnt_selection"
+            android:label="@string/title_activity_menu__qnt_selection" >
+        </activity>
+        <activity
+            android:name="com.example.orderapp.MenuQntySelection"
+            android:label="@string/title_activity_menu_qnty_selection" >
+        </activity>
+        <activity
+            android:name="com.example.orderapp.Menu_Alcohol"
+            android:label="@string/title_activity_menu__alcohol" >
+        </activity>
+        <activity
+            android:name="com.example.orderapp.Alcohol"
+            android:label="@string/title_activity_alcohol" >
+        </activity>
+        <activity
+            android:name="com.example.orderapp.ReviewPage"
+            android:label="@string/title_activity_review_page" >
+        </activity>
+        <activity
+            android:name="com.example.orderapp.Connection"
+            android:label="@string/title_activity_main" >
+        </activity>
+        <activity
+            android:name="com.example.orderapp.MainActivity"
+            android:label="@string/title_activity_main" >
+        </activity>
+        <activity
+            android:name="com.example.orderapp.Main_menu"
+            android:label="@string/title_activity_main_menu" >
+        </activity>
+        <activity
+            android:name="com.example.orderapp.Appetizer"
+            android:label="@string/title_activity_appetizer" >
+        </activity>
+        <activity
+            android:name="com.example.orderapp.TotalReview"
+            android:label="@string/title_activity_total_review" >
+        </activity>
+        <activity
+            android:name="com.example.orderapp.SpecialsPage"
+            android:label="@string/title_activity_specials_page" >
+        </activity>
+        <activity
+            android:name="com.example.orderapp.Waiting"
+            android:label="@string/title_activity_waiting" >
+        </activity>
+    </application>
+
+</manifest>
